@@ -1,0 +1,257 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=153;
+	taxlabels
+	'AB090161.1|TRV|Cardiovirus_theileri|NA|NA'
+	'AB747248.1|SAFV-1|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747249.1|SAFV-2|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747250.1|SAFV-3|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747251.1|SAFV-4|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747252.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747253.1|SAFV-6|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747254.1|SAFV-7|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747255.1|SAFV-8|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747256.1|SAFV-9|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747257.1|SAFV-10|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB747258.1|SAFV-11|Cardiovirus_saffoldi|Pakistan|2009'
+	'AB983594.1|SAFV-3|Cardiovirus_saffoldi|Japan|2008'
+	'AB983595.1|SAFV-3|Cardiovirus_saffoldi|Japan|NA'
+	'AF356822.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'AM922293.1|SAFV-2|Cardiovirus_saffoldi|Canada|2006'
+	'AY296731.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'DQ288856.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|NA'
+	'DQ294633.1|Mengo_virus|Cardiovirus_rueckerti|USA|NA'
+	'DQ401688.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'DQ464062.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'DQ464063.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'DQ517424.1|Porcine_encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'DQ835185.2|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Belgium|NA'
+	'EF165067.2|cardiovirus_D1|Cardiovirus_saffoldi|USA|NA'
+	'EU542581.1|TRV|Cardiovirus_theileri|USA|NA'
+	'EU681176.2|SAFV-2|Cardiovirus_saffoldi|Germany|NA'
+	'EU681177.2|SAFV-2|Cardiovirus_saffoldi|Germany|NA'
+	'EU681178.2|SAFV-3|Cardiovirus_saffoldi|Germany|NA'
+	'EU681179.2|SAFV-3|Cardiovirus_saffoldi|Germany|NA'
+	'EU718732.1|TMEV|Cardiovirus_theileri|USA|NA'
+	'EU718733.1|TMEV|Cardiovirus_theileri|USA|NA'
+	'EU723238.1|TMEV|Cardiovirus_theileri|USA|NA'
+	'EU780148.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Korea|1990'
+	'EU780149.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Korea|1990'
+	'EU815052.1|TRV|Cardiovirus_theileri|USA|2006'
+	'FJ463615.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2007'
+	'FJ463616.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2007'
+	'FJ463617.1|SAFV-6|Cardiovirus_saffoldi|Pakistan|2007'
+	'FJ604852.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'FJ604853.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'FJ897755.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2008'
+	'FM207487.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2007'
+	'FN999911.1|SAFV-2|Cardiovirus_saffoldi|Netherlands|2008'
+	'FR682076.2|SAFV-2|Cardiovirus_saffoldi|Finland|2008'
+	'GU595289.1|SAFV-2|Cardiovirus_saffoldi|USA|2001'
+	'GU943513.1|SAFV-3|Cardiovirus_saffoldi|China|2008'
+	'GU943514.1|SAFV-3|Cardiovirus_saffoldi|China|2009'
+	'GU943518.1|SAFV-2|Cardiovirus_saffoldi|China|2009'
+	'HM181996.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|1998'
+	'HM181997.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2004'
+	'HM181998.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2004'
+	'HM181999.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2005'
+	'HM641897.1|Porcine_encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2008'
+	'HQ162476.1|SAFV-3|Cardiovirus_saffoldi|Malaysia|2009'
+	'HQ652539.1|TMEV|Cardiovirus_theileri|Vietnam|2007'
+	'HQ902242.1|SAFV-3|Cardiovirus_saffoldi|Japan|2008'
+	'Hlawaga-18|Study_Isolate|Study_isolate|Myanmar|2018'
+	'JF813004.1|SAFV-2|Cardiovirus_saffoldi|Canada|2007'
+	'JN652231.1|SAFV-2|Cardiovirus_saffoldi|USA|2005'
+	'JN652232.1|SAFV-2|Cardiovirus_saffoldi|USA|2005'
+	'JN652233.1|SAFV-2|Cardiovirus_saffoldi|USA|2005'
+	'JQ864080.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2010'
+	'JX122399.1|SAFV-1|Cardiovirus_saffoldi|China|2007'
+	'JX122400.1|SAFV-1|Cardiovirus_saffoldi|China|2007'
+	'JX122401.1|SAFV-1|Cardiovirus_saffoldi|China|2007'
+	'JX122402.1|SAFV-1|Cardiovirus_saffoldi|China|2007'
+	'JX122403.1|SAFV-1|Cardiovirus_saffoldi|China|2007'
+	'JX163901.1|SAFV-2|Cardiovirus_saffoldi|Australia|2011'
+	'JX257003.1|cardiovirus_A2|Cardiovirus_rueckerti|Germany|2005'
+	'JX443418.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'JX683808.1|cardiovirus_C2|Cardiovirus_ranori|USA|2012'
+	'KC310737.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002'
+	'KC310738.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002'
+	'KC762214.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'KF293299.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013'
+	'KF598860.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF598861.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF598862.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF598863.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF598864.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF680264.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'KF709977.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA'
+	'KF771002.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013'
+	'KF836386.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF836387.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF836388.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'KF836389.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013'
+	'KF836390.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013'
+	'KJ191558.1|TMEV|Cardiovirus_theileri|Russia|1970'
+	'KJ524643.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013'
+	'KM269482.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|1944'
+	'KP892662.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|1942'
+	'KP972594.1|SAFV-3|Cardiovirus_saffoldi|Peru|2012'
+	'KU664327.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2015'
+	'KU955338.1|Mengo_virus|Cardiovirus_rueckerti|Central_African_Republic|1983'
+	'KX231802.1|Mengo_virus|Cardiovirus_rueckerti|Russia|2007'
+	'L22089.1|Mengo_virus|Cardiovirus_rueckerti|NA|NA'
+	'LC508268.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'LC585221.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Zambia|2012'
+	'M16020.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'M20301.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'M20562.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'M22457.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'M22458.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'M37588.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'M81861.1|cardiovirus_A1|Cardiovirus_rueckerti|NA|NA'
+	'MF172923.1|CaV-B3|Cardiovirus_theileri|China|2014'
+	'MF352411.1|RCV|Cardiovirus_theileri|China|2012'
+	'MF352420.1|RCV|Cardiovirus_theileri|China|2012'
+	'MF352424.1|cardiovirus_C3|Cardiovirus_ranori|China|2012'
+	'MF352428.1|RCV|Cardiovirus_theileri|China|2013'
+	'MF416403.1|TMEV|Cardiovirus_theileri|USA|2014'
+	'MH191297.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2016'
+	'MH778548.1|SAFV-2|Cardiovirus_saffoldi|Brazil|2015'
+	'MH976711.1|RCV|Cardiovirus_theileri|China|2017'
+	'MK139484.1|SAFV-3|Cardiovirus_saffoldi|Vietnam|2014'
+	'MK343442.1|TMEV|Cardiovirus_theileri|USA|1987'
+	'MK343443.1|TMEV|Cardiovirus_theileri|USA|1987'
+	'MN116646.1|RCV|Cardiovirus_theileri|Hungary|2018'
+	'MN547968.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2019'
+	'MT250508.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2013'
+	'MT250509.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2013'
+	'MT250510.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2014'
+	'MT250511.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2014'
+	'MT499387.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002'
+	'MZ384007.1|SAFV-6|Cardiovirus_saffoldi|Malaysia|2020'
+	'MZ544191.1|Cardiovirus_C|Cardiovirus_ranori|Vietnam|2014'
+	'MZ544193.1|Cardiovirus_A|Cardiovirus_rueckerti|Vietnam|2014'
+	'MZ544194.1|Cardiovirus_A|Cardiovirus_rueckerti|Vietnam|2014'
+	'NC_001366.1|TMEV|Cardiovirus_theileri|NA|NA'
+	'NC_001479.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'NC_009448.2|SAFV-1|Cardiovirus_saffoldi|USA|NA'
+	'NC_010810.1|SAFV-2|Cardiovirus_saffoldi|NA|NA'
+	'NC_038305.1|cardiovirus_C1|Cardiovirus_ranori|USA|2010'
+	'NC_039210.1|Outgroup|FMDV|UK|1965'
+	'NC_075977.1|cardiovirus_F1|Cardiovirus_dhusarah|China|NA'
+	'NC_076099.1|cardiovirus_E1|Cardiovirus_rudhira|China|NA'
+	'OF449081.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'ON907867.1|Cardiovirus_C|Cardiovirus_ranori|China|2017'
+	'OP381184.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|United_Kingdom|2016'
+	'OQ858575.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA'
+	'OQ858576.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA'
+	'OQ858577.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA'
+	'OR924200.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|1994'
+	'OR924201.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|1994'
+	'PP841942.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'PQ298982.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012'
+	'PQ541197.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Sierra_Leone|2022'
+	'PV544236.1|TMEV|Cardiovirus_theileri|USA|2024'
+	'X00463.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'X74312.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+	'X87335.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Hlawaga-18|Study_Isolate|Study_isolate|Myanmar|2018':0.155557,((('AB090161.1|TRV|Cardiovirus_theileri|NA|NA':0.0214291,('EU542581.1|TRV|Cardiovirus_theileri|USA|NA':0.0226856,'EU815052.1|TRV|Cardiovirus_theileri|USA|2006':0.0240108)[&label=83]:0.00854348)[&label=100]:0.0631926,'MF352411.1|RCV|Cardiovirus_theileri|China|2012':0.0602869)[&label=100]:0.0621485,('MH976711.1|RCV|Cardiovirus_theileri|China|2017':0.117322,(((('MF352420.1|RCV|Cardiovirus_theileri|China|2012':0.0360875,'MN116646.1|RCV|Cardiovirus_theileri|Hungary|2018':0.0486636)[&label=100]:0.111462,'MF352428.1|RCV|Cardiovirus_theileri|China|2013':0.253624)[&label=89]:0.0363691,('MF172923.1|CaV-B3|Cardiovirus_theileri|China|2014':0.245380,((('KJ191558.1|TMEV|Cardiovirus_theileri|Russia|1970':0.0506501,'EU718733.1|TMEV|Cardiovirus_theileri|USA|NA':0.0457817)[&label=100]:0.0432659,(((('EU723238.1|TMEV|Cardiovirus_theileri|USA|NA':0.0324796,((('MK343443.1|TMEV|Cardiovirus_theileri|USA|1987':0.000616091,'MK343442.1|TMEV|Cardiovirus_theileri|USA|1987':2.18590e-06)[&label=100]:0.000308150,'JX443418.1|TMEV|Cardiovirus_theileri|NA|NA':0.000615947)[&label=100]:0.000315947,('KF680264.1|TMEV|Cardiovirus_theileri|NA|NA':0.000929401,'M20301.1|TMEV|Cardiovirus_theileri|NA|NA':0.00184958)[&label=100]:0.00123003)[&label=100]:0.0266345)[&label=100]:0.0202637,('NC_001366.1|TMEV|Cardiovirus_theileri|NA|NA':0.000203626,'M20562.1|TMEV|Cardiovirus_theileri|NA|NA':0.000871468)[&label=100]:0.0436792)[&label=100]:0.0142291,(('EU718732.1|TMEV|Cardiovirus_theileri|USA|NA':0.0326760,('M16020.1|TMEV|Cardiovirus_theileri|NA|NA':0.000427679,'DQ401688.1|TMEV|Cardiovirus_theileri|NA|NA':1.00540e-06)[&label=100]:0.0319345)[&label=100]:0.0198840,'PV544236.1|TMEV|Cardiovirus_theileri|USA|2024':0.0607177)[&label=100]:0.0178833)[&label=100]:0.0263160,'HQ652539.1|TMEV|Cardiovirus_theileri|Vietnam|2007':0.0646842)[&label=100]:0.0429919)[&label=100]:0.0405963,'MF416403.1|TMEV|Cardiovirus_theileri|USA|2014':0.0902609)[&label=100]:0.172682)[&label=100]:0.154838)[&label=100]:0.0942138,((((('ON907867.1|Cardiovirus_C|Cardiovirus_ranori|China|2017':0.0391113,('MF352424.1|cardiovirus_C3|Cardiovirus_ranori|China|2012':0.0309322,('JX683808.1|cardiovirus_C2|Cardiovirus_ranori|USA|2012':0.0582943,'NC_038305.1|cardiovirus_C1|Cardiovirus_ranori|USA|2010':0.0384081)[&label=100]:0.0201678)[&label=99]:0.0118180)[&label=100]:0.0956190,'MZ544191.1|Cardiovirus_C|Cardiovirus_ranori|Vietnam|2014':0.189759)[&label=100]:2.48783,'NC_039210.1|Outgroup|FMDV|UK|1965':10.0543)[&label=99]:0.790282,((((('MZ544193.1|Cardiovirus_A|Cardiovirus_rueckerti|Vietnam|2014':1.00540e-06,'MZ544194.1|Cardiovirus_A|Cardiovirus_rueckerti|Vietnam|2014':1.00540e-06)[&label=100]:0.122182,('JX257003.1|cardiovirus_A2|Cardiovirus_rueckerti|Germany|2005':0.0353323,'OP381184.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|United_Kingdom|2016':0.0367998)[&label=100]:0.0931309)[&label=100]:0.0408225,'MN547968.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2019':0.154623)[&label=100]:0.140206,('KC310738.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002':0.000466854,'KC310737.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002':2.11330e-06)[&label=100]:0.243557)[&label=99]:0.0591532,(((((((((((((((('M81861.1|cardiovirus_A1|Cardiovirus_rueckerti|NA|NA':1.00540e-06,'NC_001479.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':1.00540e-06)[&label=89]:2.19530e-06,'OF449081.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':1.00540e-06)[&label=91]:2.59350e-06,'X00463.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000464592)[&label=100]:0.00162533,('PP841942.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000696482,'DQ288856.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|NA':1.00540e-06)[&label=83]:2.64680e-06)[&label=99]:0.000930398,'X74312.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.00233078)[&label=98]:0.000695665,((((('DQ464062.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':2.78110e-06,'KF598862.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.00116517)[&label=99]:0.000232895,((('KF709977.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':1.00540e-06,('KC762214.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':1.00540e-06,(('HM641897.1|Porcine_encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2008':1.00540e-06,('KF836390.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013':0.00162583,'KF598861.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.00421001)[&label=39]:2.77750e-06)[&label=60]:0.000232200,('KF598863.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.00139770,'KF598864.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.00116429)[&label=74]:0.000464797)[&label=29]:2.79520e-06)[&label=29]:2.64950e-06)[&label=24]:2.25820e-06,('PQ298982.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':2.74070e-06,('KF598860.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.00116211,'KF293299.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013':0.00186610)[&label=100]:0.00139605)[&label=86]:0.000232186)[&label=42]:2.66450e-06,(('DQ464063.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':1.00540e-06,'KF836387.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.000696039)[&label=60]:2.65190e-06,'KF836386.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.000464478)[&label=100]:0.000927652)[&label=99]:0.000696431)[&label=79]:0.000232304,((('FJ604852.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':2.17760e-06,'KF836389.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013':0.00162674)[&label=96]:0.000232872,('FJ604853.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|NA':2.61090e-06,'KF836388.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2012':0.000696018)[&label=49]:0.000232689)[&label=97]:0.000927225,('KF771002.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013':0.000463702,'FJ897755.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2008':0.000232887)[&label=100]:0.00139330)[&label=30]:2.39860e-06)[&label=23]:0.000232523,(('DQ517424.1|Porcine_encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':1.00540e-06,('EU780149.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Korea|1990':0.00139232,'EU780148.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Korea|1990':0.00116083)[&label=48]:2.62360e-06)[&label=100]:0.000464608,'KJ524643.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2013':0.000464924)[&label=44]:0.000232077)[&label=47]:2.88040e-06,('JQ864080.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2010':0.000231878,'MH191297.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2016':0.000697325)[&label=92]:0.000465276)[&label=96]:0.000464934)[&label=94]:0.000253325,'LC508268.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.00137165)[&label=91]:0.000232322,('AF356822.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000464177,'KM269482.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|1944':2.71260e-06)[&label=100]:0.000486833)[&label=91]:0.000267304,'KU664327.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|China|2015':0.00250536)[&label=100]:0.0710710,(('MT250508.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2013':0.000224468,'MT250509.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2013':0.000473892)[&label=100]:0.0111406,('MT250510.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2014':0.00614667,'MT250511.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|France|2014':0.00643455)[&label=99]:0.00258987)[&label=100]:0.0985764)[&label=100]:0.0557204,'AY296731.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.128271)[&label=100]:0.0514133,('M37588.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000426159,('X87335.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':1.00540e-06,('M22458.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000230636,'M22457.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|NA|NA':0.000697277)[&label=100]:0.00186339)[&label=100]:0.000968371)[&label=100]:0.146323)[&label=71]:0.0199032,'KP892662.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|USA|1942':0.176507)[&label=66]:0.0188903,'LC585221.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Zambia|2012':0.241254)[&label=97]:0.0716277,(('DQ835185.2|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Belgium|NA':0.0572849,'PQ541197.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Sierra_Leone|2022':0.0713472)[&label=100]:0.144246,((('MT499387.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|Singapore|2002':0.114546,((('OQ858575.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA':1.00540e-06,'OQ858576.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA':0.000232644)[&label=79]:2.36510e-06,'OQ858577.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|NA':0.000463416)[&label=100]:0.0269936,('OR924200.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|1994':0.00112356,'OR924201.1|Encephalomyocarditis_virus|Cardiovirus_rueckerti|South_Africa|1994':0.000972413)[&label=100]:0.0499650)[&label=100]:0.0656251)[&label=77]:0.0138437,('L22089.1|Mengo_virus|Cardiovirus_rueckerti|NA|NA':0.000252185,'DQ294633.1|Mengo_virus|Cardiovirus_rueckerti|USA|NA':0.000444927)[&label=100]:0.0781510)[&label=100]:0.0502881,'KX231802.1|Mengo_virus|Cardiovirus_rueckerti|Russia|2007':0.117420)[&label=100]:0.0782827)[&label=100]:0.0387924)[&label=65]:0.0320318,'KU955338.1|Mengo_virus|Cardiovirus_rueckerti|Central_African_Republic|1983':0.187160)[&label=97]:0.0846960)[&label=100]:1.00710)[&label=100]:0.445068,('NC_076099.1|cardiovirus_E1|Cardiovirus_rudhira|China|NA':0.883345,'NC_075977.1|cardiovirus_F1|Cardiovirus_dhusarah|China|NA':0.740424)[&label=100]:0.274952)[&label=100]:0.539904)[&label=68]:0.0821356)[&label=65]:0.0398861)[&label=69]:0.100349,((((('EF165067.2|cardiovirus_D1|Cardiovirus_saffoldi|USA|NA':1.00540e-06,'NC_009448.2|SAFV-1|Cardiovirus_saffoldi|USA|NA':2.35570e-06)[&label=100]:0.0615936,'HM181996.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|1998':0.0816630)[&label=76]:0.0136243,('EU681177.2|SAFV-2|Cardiovirus_saffoldi|Germany|NA':0.100860,('GU943518.1|SAFV-2|Cardiovirus_saffoldi|China|2009':0.0613502,'FR682076.2|SAFV-2|Cardiovirus_saffoldi|Finland|2008':0.0298662)[&label=100]:0.0868169)[&label=90]:0.0282722)[&label=71]:0.0126452,((((((((('MH778548.1|SAFV-2|Cardiovirus_saffoldi|Brazil|2015':0.0774330,'JN652232.1|SAFV-2|Cardiovirus_saffoldi|USA|2005':0.00220694)[&label=68]:0.00171657,('JN652233.1|SAFV-2|Cardiovirus_saffoldi|USA|2005':1.00540e-06,'JN652231.1|SAFV-2|Cardiovirus_saffoldi|USA|2005':0.000299128)[&label=100]:0.00270961)[&label=69]:0.00313477,'EU681176.2|SAFV-2|Cardiovirus_saffoldi|Germany|NA':0.00448651)[&label=69]:0.00332756,'FN999911.1|SAFV-2|Cardiovirus_saffoldi|Netherlands|2008':0.00725419)[&label=100]:0.0417152,(((((('GU943513.1|SAFV-3|Cardiovirus_saffoldi|China|2008':0.0131940,(('AB983595.1|SAFV-3|Cardiovirus_saffoldi|Japan|NA':0.000887615,'HQ902242.1|SAFV-3|Cardiovirus_saffoldi|Japan|2008':1.00540e-06)[&label=100]:0.00528937,'KP972594.1|SAFV-3|Cardiovirus_saffoldi|Peru|2012':0.0176917)[&label=100]:0.00421692)[&label=100]:0.00172621,'MK139484.1|SAFV-3|Cardiovirus_saffoldi|Vietnam|2014':0.0106974)[&label=100]:0.00121097,'AB983594.1|SAFV-3|Cardiovirus_saffoldi|Japan|2008':0.00208849)[&label=100]:0.00184383,'GU943514.1|SAFV-3|Cardiovirus_saffoldi|China|2009':0.0177685)[&label=100]:0.00302878,'FM207487.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2007':0.0142103)[&label=100]:0.00986852,'HQ162476.1|SAFV-3|Cardiovirus_saffoldi|Malaysia|2009':0.0176527)[&label=100]:0.0611041)[&label=94]:0.0132215,'JX163901.1|SAFV-2|Cardiovirus_saffoldi|Australia|2011':0.0822438)[&label=62]:0.0127265,(('HM181997.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2004':0.00157636,'HM181998.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2004':0.00291771)[&label=100]:0.00359566,'HM181999.1|SAFV-3|Cardiovirus_saffoldi|Netherlands|2005':0.00428044)[&label=100]:0.0591226)[&label=62]:0.0145646,(('EU681179.2|SAFV-3|Cardiovirus_saffoldi|Germany|NA':0.00106806,'EU681178.2|SAFV-3|Cardiovirus_saffoldi|Germany|NA':0.00669572)[&label=100]:0.0608388,'MZ384007.1|SAFV-6|Cardiovirus_saffoldi|Malaysia|2020':0.0978207)[&label=49]:0.00697232)[&label=84]:0.0185145,(('NC_010810.1|SAFV-2|Cardiovirus_saffoldi|NA|NA':0.00562102,('JF813004.1|SAFV-2|Cardiovirus_saffoldi|Canada|2007':0.000249600,'AM922293.1|SAFV-2|Cardiovirus_saffoldi|Canada|2006':0.00118473)[&label=100]:0.00787722)[&label=100]:0.0340424,'GU595289.1|SAFV-2|Cardiovirus_saffoldi|USA|2001':0.0307691)[&label=100]:0.0461248)[&label=70]:0.0122588)[&label=61]:0.0182003,((((((('AB747248.1|SAFV-1|Cardiovirus_saffoldi|Pakistan|2009':0.0968345,('AB747253.1|SAFV-6|Cardiovirus_saffoldi|Pakistan|2009':0.000364412,'FJ463617.1|SAFV-6|Cardiovirus_saffoldi|Pakistan|2007':0.0611742)[&label=100]:0.0583336)[&label=69]:0.0204761,('AB747258.1|SAFV-11|Cardiovirus_saffoldi|Pakistan|2009':0.0405580,'FJ463616.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2007':0.0294384)[&label=100]:0.0133774)[&label=59]:0.0139206,'AB747252.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2009':0.0612504)[&label=54]:0.00660261,'AB747255.1|SAFV-8|Cardiovirus_saffoldi|Pakistan|2009':0.0881262)[&label=79]:0.0114820,'AB747254.1|SAFV-7|Cardiovirus_saffoldi|Pakistan|2009':0.109816)[&label=73]:0.00896850,('AB747251.1|SAFV-4|Cardiovirus_saffoldi|Pakistan|2009':0.121497,(('FJ463615.1|SAFV-5|Cardiovirus_saffoldi|Pakistan|2007':0.0326172,'AB747256.1|SAFV-9|Cardiovirus_saffoldi|Pakistan|2009':0.0523163)[&label=97]:0.0293225,'AB747257.1|SAFV-10|Cardiovirus_saffoldi|Pakistan|2009':0.0860042)[&label=96]:0.0104705)[&label=91]:0.0208293)[&label=45]:0.0106313,((('JX122401.1|SAFV-1|Cardiovirus_saffoldi|China|2007':0.000891665,((('JX122399.1|SAFV-1|Cardiovirus_saffoldi|China|2007':0.000226267,'JX122400.1|SAFV-1|Cardiovirus_saffoldi|China|2007':0.00335805)[&label=68]:0.000224678,'JX122402.1|SAFV-1|Cardiovirus_saffoldi|China|2007':0.00178328)[&label=74]:0.000227615,'JX122403.1|SAFV-1|Cardiovirus_saffoldi|China|2007':0.00178738)[&label=64]:2.72050e-06)[&label=100]:0.0827981,'AB747249.1|SAFV-2|Cardiovirus_saffoldi|Pakistan|2009':0.0599114)[&label=94]:0.0175354,'AB747250.1|SAFV-3|Cardiovirus_saffoldi|Pakistan|2009':0.0778130)[&label=64]:0.0118095)[&label=49]:0.00543111)[&label=100]:0.431991);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.boxSize=4;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set tipLabels.tipPath=true;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

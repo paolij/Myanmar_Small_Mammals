@@ -1,0 +1,139 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=35;
+	taxlabels
+	'AF304460.1|HCoV_229E'
+	'AY567487.2|HCoV_NL63'
+	'DQ648858.1|Sc-BatCoV_512'
+	'DQ811789.2|TGEV'
+	'DQ848678.1|FelineCoV'
+	'EF203064.1|Rh-BatCoV_HKU2'
+	'EU420138.1|Mi-BatCoV_1A'
+	'EU420139.1|Mi-BatCoV_HKU8'
+	'HM245925.1|MinkCoV'
+	'Hlawga-17|WESV'
+	'JQ410000.1|AlpacaCoV'
+	'JQ989270.1|BtCoV'
+	'KC175340.1|CanineCoV'
+	'KF294380.2|LRNV'
+	'KF430219.1|BtCoV'
+	'KJ473799.1|BtMf-AlphaCoV/FJ2012'
+	'KJ473806.1|BtMr-AlphaCoV'
+	'KJ473807.1|BtRf-AlphaCoV'
+	'KJ473808.1|BtRf-AlphaCoV/YN2012'
+	'KJ473809.1|BtNv-AlphaCoV'
+	'KT368907.1|CamelCoV'
+	'KU664503.1|PEDV'
+	'KY370053.1|Sa-CoV_T14'
+	'KY967723.1|WESV'
+	'KY967724.1|WESV'
+	'KY967725.1|WESV'
+	'KY967726.1|WESV'
+	'KY967733.1|WESV'
+	'KY967734.1|WESV'
+	'KY967735.1|WESV'
+	'MK472068.1|ACoV-WA2028'
+	'MT663548.1|BtCoV-AMA-L-F'
+	'NC_035191.1|WESV'
+	'NC_045512.2|SARS-CoV-2'
+	'NC_048211.1|WESV'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Hlawga-17|WESV':0.100470,((('KY967726.1|WESV':2.44080e-06,'KY967725.1|WESV':0.000723677)[&label=100]:0.0550360,(('NC_035191.1|WESV':0.00447336,'NC_048211.1|WESV':0.00677571)[&label=100]:0.0246553,('KY967723.1|WESV':0.0100159,'KY967724.1|WESV':0.0149648)[&label=100]:0.0428927)[&label=100]:0.0269861)[&label=99]:0.0297953,('KY967734.1|WESV':0.0116097,('KY967735.1|WESV':0.000613020,'KY967733.1|WESV':0.000220016)[&label=100]:0.0116087)[&label=100]:0.0793281)[&label=87]:0.0308072,((((('HM245925.1|MinkCoV':0.316322,(('DQ811789.2|TGEV':0.0426040,'KC175340.1|CanineCoV':0.0262332)[&label=100]:0.113012,'DQ848678.1|FelineCoV':0.186644)[&label=100]:0.208342)[&label=100]:0.464092,((((('JQ989270.1|BtCoV':0.288884,'KJ473807.1|BtRf-AlphaCoV':0.285814)[&label=100]:0.146922,('EU420138.1|Mi-BatCoV_1A':0.335577,('KJ473799.1|BtMf-AlphaCoV/FJ2012':0.0966708,'EU420139.1|Mi-BatCoV_HKU8':0.111455)[&label=100]:0.182223)[&label=100]:0.159751)[&label=98]:0.0500208,(('MK472068.1|ACoV-WA2028':0.357813,'KJ473809.1|BtNv-AlphaCoV':0.257149)[&label=100]:0.238832,(('DQ648858.1|Sc-BatCoV_512':0.289478,'KU664503.1|PEDV':0.283169)[&label=100]:0.140387,'KF430219.1|BtCoV':0.407488)[&label=100]:0.131421)[&label=74]:0.0449261)[&label=92]:0.0592159,('MT663548.1|BtCoV-AMA-L-F':0.556036,'KJ473806.1|BtMr-AlphaCoV':0.511817)[&label=60]:0.0664727)[&label=53]:0.0305381,(('AF304460.1|HCoV_229E':0.0667053,('KT368907.1|CamelCoV':0.00341659,'JQ410000.1|AlpacaCoV':0.00323657)[&label=100]:0.0473607)[&label=100]:0.395855,'AY567487.2|HCoV_NL63':0.399938)[&label=100]:0.128203)[&label=99]:0.0562853)[&label=99]:0.0765358,'NC_045512.2|SARS-CoV-2':1.87877)[&label=71]:0.0477186,('KF294380.2|LRNV':0.849821,('KJ473808.1|BtRf-AlphaCoV/YN2012':0.0819298,'EF203064.1|Rh-BatCoV_HKU2':0.0918848)[&label=100]:0.332845)[&label=87]:0.0763191)[&label=87]:0.182395,'KY370053.1|Sa-CoV_T14':1.11838)[&label=100]:0.833781);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.boxSize=4;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set tipLabels.tipPath=true;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
